@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda de Computadoras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Computadoras</h1>
+    </header>
+    <div class="container">
+        <div class="productos">
+            <div class="producto">
+                <h3>Laptop LEGION</h3>
+                <img src="imagen1.png" alt="Computadora 1">
+                <p>Precio: $800</p>
+                <button class="btn-comprar" data-id="1">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <h3>Laptop PREDATOR</h3>
+                <img src="imagen2.png" alt="Computadora 2">
+                <p>Precio: $900</p>
+                <button class="btn-comprar" data-id="2">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <h3>Laptop OMEGA</h3>
+                <img src="imagen3.jpg" alt="Computadora 3">
+                <p>Precio: $1000</p>
+                <button class="btn-comprar" data-id="3">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <h3>Laptop GENIUS</h3>
+                <img src="imagen4.jpg" alt="Computadora 4">
+                <p>Precio: $1100</p>
+                <button class="btn-comprar" data-id="4">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <h2>Mi carrito de compras</h2>
+            <ul id="carrito-lista">
+                <!-- Aquí se mostraría el contenido del carrito -->
+            </ul>
+            <hr>
+            <p>Total: <span id="total"></span>&dollar;</p>
+            <button id="boton-vaciar">Vaciar Carrito</button>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Tienda de Computadoras
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
